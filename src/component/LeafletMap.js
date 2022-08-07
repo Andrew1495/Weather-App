@@ -5,7 +5,7 @@ const LeafletMap = (({forcast}) =>{
     if (forcast){
     
         let coord = [forcast.lat, forcast.lon]
-    console.log(coord)
+
    
         return (
             <MapContainer center={coord} zoom={12}scrollWheelZoom={false} key={Date.now()}>
