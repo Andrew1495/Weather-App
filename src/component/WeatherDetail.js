@@ -12,7 +12,7 @@ const WeatherDetail =({city}) =>{
                 <h3>{city.name},</h3><p>{city.sys.country}:</p>
             </div>
             <p> Temp: {city.main.temp.toFixed(0)}°C</p>
-            <p className="min-max">Min: {city.main.temp_min.toFixed(0)}°C Max:{city.main.temp_max.toFixed(0)}°C</p>
+            <p className="min-max">Min: {city.main.temp_min.toFixed(0)}°C Max: {city.main.temp_max.toFixed(0)}°C</p>
             
             <img src={city.icon} />
         </div>
