@@ -8,7 +8,6 @@ const WeatherDetail =({city}) =>{
     return(
     <div>
         <div className="content top">
-            <h2>Today</h2>
             <div className="city-country">
                 <h3>{city.name},</h3><p>{city.sys.country}:</p>
             </div>
